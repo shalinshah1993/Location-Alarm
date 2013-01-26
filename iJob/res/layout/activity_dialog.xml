@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="25dp">
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/textView1_Dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp"
+        android:text="Enter the name of event:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText1_Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinner1_Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/string" />
+
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">"
+        <Button
+     	android:layout_gravity="center"
+     	android:width="100dp"
+        android:id="@+id/button1_Dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok" />
+        <Button
+        android:width="100dp"
+        android:id="@+id/button2_Dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel" />
+</LinearLayout>
+</LinearLayout>
